@@ -1,4 +1,5 @@
-github.com/go-chi/chi v1.0.0 h1:s/kv1cTXfivYjdKJdyUzNGyAWZ/2t7duW1gKn5ivu+c=
+github.com/William-Vandebelt/godemo v0.0.0-20201028231042-858d198c5bb3 h1:ybjN8y1nbLM2Sqk8SvidaF8QUGY3nuWRN+nqcxnswoo=
+github.com/William-Vandebelt/godemo v0.0.0-20201028231042-858d198c5bb3/go.mod h1:nZrMsWxIpEAq4p+PDbvzFMWjZ7aCqc8/5x16NnswPU8=
 github.com/go-chi/chi v4.1.2+incompatible h1:fGFk2Gmi/YKXk0OmGfBh0WgmN3XB8lVnEyNz34tQRec=
 github.com/go-chi/chi v4.1.2+incompatible/go.mod h1:eB3wogJHnLi3x/kFX2A+IbTBlXxmMeXJVKy9tTv1XzQ=
 github.com/joho/godotenv v1.3.0 h1:Zjp+RcGpHhGlrMbJzXTrZZPrWj+1vfm90La1wgB6Bhc=

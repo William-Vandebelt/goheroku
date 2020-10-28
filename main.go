@@ -5,7 +5,9 @@ import (
 	"net/http"
 	"os"
 	"text/template"
+	"time"
 
+	"github.com/William-Vandebelt/godemo"
 	"github.com/go-chi/chi"
 	"github.com/joho/godotenv"
 )
@@ -42,6 +44,10 @@ func init() {
 	if err != nil {
 		log.Printf("Error loading .env file: %q\n", err)
 	}
+	// Using new golang package from personal github
+	t := time.Now()
+	godemo.ConvertDate("UTC", t)
+	log.Printf("Current Time in UTC is: %v\n", t)
 }
 
 // Build with >> go build -o bin/goheroku -v .
