@@ -46,7 +46,7 @@ func init() {
 	}
 	// Using new golang package from personal github
 	t := time.Now()
-	godemo.ConvertDate("UTC", t)
+	t = godemo.ConvertDate("UTC", t)
 	log.Printf("Current Time in UTC is: %v\n", t)
 }
 
